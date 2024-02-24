@@ -229,7 +229,7 @@ Examples:
 */
 
 function doubleOddNumbers(arr) {
-    newArr = [];
+    let newArr = [];
     newArr =  arr.filter(function(val) {
         return val % 2 !== 0;
     }).map(function(val) {
